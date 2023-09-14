@@ -11,21 +11,39 @@
 </head>
 
 <body>
-    <article class="container">
-        <section class="callout">
+    <nav class="navbar navbar-light bg-light navbar-expand-sm"> <a href="/" class="navbar-brand"> Whiskey Drop </a>
+        <ul class="navbar-nav mr-auto">
+            <li class="active nav-item mr-2"> <a class="nav-link" href="/"> Home </a> </li>
+            <li class="nav-item mr-2"> <a class="nav-link" href="/about"> About </a> </li>
+            <li class="nav-item mr-2 d-block d-md-none"> <a class="nav-link" href="/login"> Sign In / Sign-Up! </a>
+            </li>
+        </ul>
+        <div class="d-none d-md-block">
+            <p class="navbar-text my-auto mr-2"> <i>Great whiskey delivered to your door!</i> <a href="/login"
+                    class="ml-2"> Sign In / Sign-Up! </a> </p>
+        </div>
+    </nav>
+
+    <article class="container mt-3">
+
+        <section class="callout jumbotron text-center">
             <div class="row">
                 <div class="col-12">
-                    <h1>The finest whiskeys delivered to your doorstep.</h1>
-                    <p class="lead">Sign up today to start receiving the world's best whiskeys every month.
-                        <s>€19.99</s> <strong><mark>First one is free!</mark></strong>
+                    <h1>
+                        The finest whiskeys delivered to your doorstep
+                    </h1>
+                    <p class="lead">
+                        Sign up today to start receiving the world's best whiskeys every month.
+                        <s class="d-none d-sm-inline">£19.99</s>
+                        <span class="d-inline d-sm-none"><br></span>
+                        <strong>
+                            <mark>First one is free!</mark>
+                        </strong>
                     </p>
-                    <p><button class="btn btn-lg btn-success">Sign Up!</button></p>
                     <p class="text-muted">
-                        <small>You must be over 18 to sign up to our service. Please drink
-                            responsibly.
-                        </small>
+                        <small>You must be over 18 to sign up to our service. Please drink responsibly.</small>
                     </p>
-
+                    <button class="btn btn-success btn-lg">Sign Up!</button>
                 </div>
             </div>
         </section>
@@ -34,7 +52,7 @@
 
         <section class="quotes">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12 my-5">
                     <h2 class="text-uppercase">
                         Quotes:
                     </h2>
@@ -43,7 +61,7 @@
             <div class="row">
                 <div class="col-12 col-md-6">
                     <blockquote class="blockquote">
-                        <p>I've been introduced to more than 10 great whiskeys I never knew about.</p>
+                        <p>I've been introduced to more than 10 great whiskleys I never knew about.</p>
                         <p>- Jane Doe</p>
                     </blockquote>
                 </div>
@@ -60,18 +78,17 @@
 
         <section class="features">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12 my-5">
                     <h2 class="text-uppercase">Features:</h2>
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 col-md-6 col-lg">
+                <div class="col-12 col-md-6 col-lg-4">
                     <div class="feature">
                         <h3>Feature 1</h3>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum perferendis nostrum voluptate
                             incidunt iusto numquam impedit, amet at distinctio magni harum quis aut maxime quidem,
-                            officia
-                            laboriosam suscipit aspernatur esse?</p>
+                            officia laboriosam suscipit aspernatur esse?</p>
                         <p>
                             <a class="btn btn-sm btn-light" href="">Read More</a>
                         </p>
@@ -81,21 +98,19 @@
                     <div class="feature">
                         <h3>Feature 2</h3>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus doloribus minus
-                            accusantium
-                            vel voluptatibus earum unde cum, corrupti molestias quasi officia. Inventore perferendis
-                            pariatur recusandae amet minima minus dolores saepe.</p>
+                            accusantium vel voluptatibus earum unde cum, corrupti molestias quasi officia. Inventore
+                            perferendis pariatur recusandae amet minima minus dolores saepe.</p>
                         <p>
                             <a class="btn btn-sm btn-light" href="">Read More</a>
                         </p>
                     </div>
                 </div>
-                <div class="col-12 d-md-none d-lg-block col-lg-4">
+                <div class="col-12 d-md-none d-lg-block col-lg-4 ">
                     <div class="feature">
                         <h3>Feature 3</h3>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur voluptate ducimus libero
-                            labore
-                            ut doloribus fugit dicta iure animi autem tempora recusandae odio optio sunt dolorum placeat
-                            aperiam, alias cum.</p>
+                            labore ut doloribus fugit dicta iure animi autem tempora recusandae odio optio sunt dolorum
+                            placeat aperiam, alias cum.</p>
                         <p>
                             <a class="btn btn-sm btn-light" href="">Read More</a>
                         </p>
@@ -103,6 +118,7 @@
                 </div>
             </div>
         </section>
+
     </article>
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
@@ -112,5 +128,6 @@
         integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
         crossorigin="anonymous"></script>
 </body>
+
 
 </html>
