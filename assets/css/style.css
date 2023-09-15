@@ -1,0 +1,20 @@
+/*font-family: 'Dancing Script', cursive; wght@400;500;600;700*/
+
+body{}
+
+.container-alert{}
+
+.callout-container{
+    font-family: 'Dancing Script', cursive;
+    height: 100vh;
+
+    background: url("../images/whiskeyglass.jpg") no-repeat bottom right fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.container-quotes{}
+
+.container-features{}
