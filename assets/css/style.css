@@ -79,6 +79,7 @@ hr{
 .features .btn {
     background-color: transparent;
     color: #ffff4d;
+    border-color: #ca980f;
 }
 
 .btn-readMore:hover {
