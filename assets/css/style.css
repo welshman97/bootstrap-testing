@@ -39,6 +39,7 @@ hr{
 /*Quotes*/
 .quotes-container {
     color: #26495e;
+    margin-top: 4px;
 }
 
 .quotes-container .row {
@@ -56,6 +57,7 @@ hr{
 /*Features*/
 .features {
     color: #ffff4d;
+    margin-top: 4px;
 }
 
 .features>.row {
