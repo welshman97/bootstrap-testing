@@ -2,6 +2,10 @@
 
 body {}
 
+hr{
+    display: none;
+}
+
 .navbar {
     background-color: #ca980f;
 }
