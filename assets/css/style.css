@@ -2,6 +2,10 @@
 
 body {}
 
+.navbar {
+    background-color: #ca980f;
+}
+
 .alert-container {}
 
 .callout-container {
@@ -28,9 +32,54 @@ body {}
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.quotes-container {}
+/*Quotes*/
+.quotes-container {
+    color: #26495e;
+}
 
-.features-container {}
+.quotes-container .row {
+    background-color: chocolate;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 600;
+}
+
+.blockquote {
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+}
+
+
+/*Features*/
+.features {
+    color: #ffff4d;
+}
+
+.features>.row {
+    background-color: rgb(16, 155, 165);
+}
+
+.feature1 {
+    background-color: blueviolet;
+}
+
+.feature2 {
+    background-color: #422466;
+}
+
+.feature3 {
+    background-color: #842884;
+}
+
+.features .btn {
+    background-color: transparent;
+    color: #ffff4d;
+}
+
+.btn-readMore:hover {
+    background-color: #ca980f;
+    border-color: #ca980f;
+}
+
 
 /*Block Divider*/
 
@@ -89,6 +138,6 @@ body {}
 .btn-red:active,
 .btn-red:focus,
 .btn-red:active:focus {
-    background-color:#df4929;
+    background-color: #df4929;
     border-color: #df4929;
 }
